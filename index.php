@@ -5,10 +5,16 @@
 </head>
 <body>
 <form method="post" action="process.php">
-To:<br>
+Your name:<br>
+  <input type="text" name="name"><br>
+  Your Mail:<br>
   <input type="email" name="email"><br>
- Subject:<br>
-  <input type="text" name="subject"><br><br>
+  Mobile:<br>
+  <input type="number" name="mobile"><br>
+  Subject:<br>
+  <input type="text" name="subject"><br>
+
+ Message:<br>
  <textarea rows="4" cols="40" name="message">
 </textarea> 
  <input type="submit" name="btn_send">
